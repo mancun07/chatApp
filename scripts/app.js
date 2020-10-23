@@ -21,7 +21,7 @@ chatForm.addEventListener('submit', e => {
     const userMessage = e.target.message.value.trim();
     chatroom.addChat(userMessage)
         .then(() => chatForm.reset())
-        .catch(console.log(err))
+        .catch(err => console.log(err))
 })
 
 nameForm.addEventListener('submit', e => {
