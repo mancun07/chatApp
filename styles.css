@@ -26,3 +26,8 @@
 .update-message {
     margin: 20px auto;
 }
+
+.list-group-item {
+    text-align: left;
+}
+
