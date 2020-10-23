@@ -11,8 +11,8 @@ class ChatUI {
         //     )
         const htmlToRender = `
             <div class="list-group-item">
-                <span class="message">${data.username}</span>
-                <span class="username">${data.message}</span>
+                <span class="username">${data.username}</span>
+                <span class="message">${data.message}</span>
                
             
             </div>
